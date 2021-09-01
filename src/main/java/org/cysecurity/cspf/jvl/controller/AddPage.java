@@ -71,6 +71,7 @@ public class AddPage extends HttpServlet {
             out.print(e);
         }
         finally {
+            //java test
             out.close();
         }
     }
