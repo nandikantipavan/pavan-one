@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package org.cysecurity.cspf.jvl.model;
+package org.cysecurity.cspf.jvl.modeltest;
 
  
 import java.io.FileInputStream;
@@ -19,8 +19,8 @@ import java.util.Properties;
  *
  * @author breakthesec
  */
-public class DBConnect {
-private String password = "test3";
+public class DBConnectOne {
+private String password = "modelTest3";
     public Connection connect(String path) throws IOException,ClassNotFoundException,SQLException
     {
         Properties properties=new Properties();
