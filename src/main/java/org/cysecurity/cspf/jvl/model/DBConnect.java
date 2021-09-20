@@ -20,7 +20,7 @@ import java.util.Properties;
  * @author breakthesec
  */
 public class DBConnect {
-private String password = "test3";
+private String password = "test4";
     public Connection connect(String path) throws IOException,ClassNotFoundException,SQLException
     {
         Properties properties=new Properties();
