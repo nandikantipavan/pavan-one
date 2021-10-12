@@ -1,10 +1,10 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.  
+ * and open the template in the editor.
  */
 
-package org.cysecurity.cspf.jvl.model;
+package org.cysecurity.cspf.jvl.modeltest;
 
  
 import java.io.FileInputStream;
@@ -19,8 +19,8 @@ import java.util.Properties;
  *
  * @author breakthesec
  */
-public class DBConnect {
-private String password = "test5";
+public class DBConnectOne {
+private String password = "modelTest3";
     public Connection connect(String path) throws IOException,ClassNotFoundException,SQLException
     {
         Properties properties=new Properties();
