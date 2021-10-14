@@ -2,7 +2,7 @@ FROM ubuntu:17.10
 ENV WORKDIR /usr/src/app/
 WORKDIR $WORKDIR   
 COPY package*.json $WORKDIR  
-RUN npm install --production --no-cache 
+RUN npm install --production --no-cache   
   
 FROM node:12-alpine  
 ENV USER node
