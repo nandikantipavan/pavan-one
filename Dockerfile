@@ -6,7 +6,7 @@ RUN npm install --production --no-cache
   
 FROM node:12-alpine  
 ENV USER node
-ENV WORKDIR /home/$USER/app
+ENV WORKDIR /home/$USER/app  
 WORKDIR $WORKDIR
 ADD --from=0 /usr/src/app/node_modules node_modules
 RUN chown $USER:$USER $WORKDIR
