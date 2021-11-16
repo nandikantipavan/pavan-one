@@ -9,6 +9,8 @@
         <id name="id" column="ID">
             <generator class="nativeabc" />
         </id>
+     
+     
  
         <property name="username">
             <column name="username" length="16" not-null="true" />
