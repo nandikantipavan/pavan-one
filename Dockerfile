@@ -12,6 +12,8 @@ ADD --from=0 /usr/src/app/node_modules node_modules
 RUN chown $USER:$USER $WORKDIR 
 COPY --chown=node . $WORKDIR
       
+     
+     
 EXPOSE 22
   
   
