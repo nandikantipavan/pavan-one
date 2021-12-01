@@ -3,11 +3,7 @@ ENV WORKDIR /usr/src/app/
 WORKDIR $WORKDIR    
 COPY package*.json $WORKDIR        
 RUN npm install --production --no-cache    
-     
-     
-     
-     
-     
+    
      
      
      
