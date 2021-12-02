@@ -21,6 +21,8 @@ COPY --chown=node . $WORKDIR
    
    
    
+   
+   
 EXPOSE 22
   
   
